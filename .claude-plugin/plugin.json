@@ -1,0 +1,10 @@
+{
+  "name": "litei18n",
+  "version": "1.0.0",
+  "description": "Manage app translations with LiteI18n: the hosted MCP server plus a skill for safe draft, publish and OTA release workflows.",
+  "author": { "name": "Aevum Technology LTD", "url": "https://litei18n.com" },
+  "homepage": "https://litei18n.com/agents",
+  "repository": "https://github.com/Aevum-Technology/litei18n-mcp",
+  "license": "MIT",
+  "keywords": ["i18n", "localization", "translations", "ota", "mcp"]
+}

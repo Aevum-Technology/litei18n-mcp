@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.litei18n/mcp",
+  "title": "LiteI18n",
+  "description": "Manage app translations: find and create keys, draft translations, commit and ship OTA releases.",
+  "version": "2.0.0",
+  "websiteUrl": "https://litei18n.com/agents",
+  "repository": {
+    "url": "https://github.com/Aevum-Technology/litei18n-mcp",
+    "source": "github"
+  },
+  "icons": [
+    { "src": "https://litei18n.com/android-chrome-512x512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.litei18n.com/mcp" }
+  ]
+}

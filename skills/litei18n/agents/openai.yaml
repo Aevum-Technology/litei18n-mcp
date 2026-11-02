@@ -1,0 +1,4 @@
+interface:
+  display_name: "LiteI18n"
+  short_description: "Manage translations and OTA releases with LiteI18n"
+  default_prompt: "Use $litei18n to find, add, translate, publish or release translation keys in my LiteI18n project."

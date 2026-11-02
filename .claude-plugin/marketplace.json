@@ -1,0 +1,12 @@
+{
+  "name": "litei18n",
+  "owner": { "name": "Aevum Technology LTD", "url": "https://litei18n.com" },
+  "plugins": [
+    {
+      "name": "litei18n",
+      "source": "./",
+      "description": "The LiteI18n hosted MCP server and the litei18n agent skill.",
+      "homepage": "https://litei18n.com/agents"
+    }
+  ]
+}

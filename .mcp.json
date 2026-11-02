@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "litei18n": {
+      "type": "http",
+      "url": "https://mcp.litei18n.com/mcp"
+    }
+  }
+}
