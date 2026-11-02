@@ -25,7 +25,7 @@ install and no token to copy. Current per-app guides: https://litei18n.com/agent
 
 The AI app opens LiteI18n in the browser. The user signs in, picks a workspace, the projects, and
 an access level (Read only, Read and write, or Full access), and approves. Approving needs the
-**owner** or **admin** role in that workspace, and a plan that includes MCP access.
+**owner** or **admin** role in that workspace. MCP access is on every plan; releases need Starter or above.
 
 Each connection appears under **Connect AI** in the workspace sidebar, where it can be
 disconnected. Disconnecting revokes its access at once.

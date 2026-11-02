@@ -72,7 +72,7 @@ codex mcp login litei18n
 
 ### Cursor
 
-[Install in Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=litei18n&config=eyJ1cmwiOiJodHRwczovL21jcC5saXRlaTE4bi5jb20vbWNwIn0%3D),
+[Install in Cursor](https://cursor.com/en/install-mcp?name=litei18n&config=eyJ1cmwiOiJodHRwczovL21jcC5saXRlaTE4bi5jb20vbWNwIn0%3D),
 or add this to `.cursor/mcp.json`:
 
 ```json
@@ -85,7 +85,7 @@ or add this to `.cursor/mcp.json`:
 
 ### VS Code
 
-[Install in VS Code](vscode:mcp/install?%7B%22name%22%3A%22litei18n%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.litei18n.com%2Fmcp%22%7D),
+[Install in VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=litei18n&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.litei18n.com%2Fmcp%22%7D),
 or add this to `.vscode/mcp.json`:
 
 ```json
@@ -222,7 +222,7 @@ it in your CI's secret store, never in code or chat.
 
 ## Requirements
 
-- A LiteI18n account and a workspace whose plan includes MCP access.
+- A LiteI18n account. MCP access is included on every plan, Free too.
 - The workspace **owner** or **admin** role to approve a connection.
 - Creating OTA releases needs the **Starter** plan or above.
 
@@ -233,7 +233,7 @@ it in your CI's secret store, never in code or chat.
 | Asked to sign in again | The connection was disconnected or expired. Sign in from your AI app again. |
 | "No access to this project" | The project was not selected when you approved. Reconnect and tick it. |
 | "Permission denied" | The connection lacks that permission for the project. Reconnect with a higher access level. |
-| "Not available on your plan" | Your workspace plan does not include MCP access or releases. Upgrade under **Billing**. |
+| "Your plan does not allow this action" | Creating OTA releases needs the Starter plan or above. Upgrade under **Billing**. |
 | "This workspace has been suspended" | Contact support. Access returns once the suspension is lifted. |
 | Too many requests | Each connection may make 60 requests a minute. Wait a moment and try again. |
 

@@ -54,7 +54,7 @@ Only committed and released translations appear. Drafts never do.
 | `latest/{locale}.json` | Many languages or large catalogs; load on language switch | One request per language |
 | `v{version}/…` | A build must keep exactly the text it was tested with | You update the version yourself |
 
-`latest/` changes with every release. `v{version}/` never changes.
+`latest/` changes with every release, and when someone picks an older release as latest on the Releases page (a rollback). `v{version}/` never changes.
 
 ## Loading with a fallback
 
@@ -110,7 +110,7 @@ dots that are not nesting).
 
 1. Open the expected `latest/{locale}.json` URL directly and confirm it has your keys.
 2. Change a string in LiteI18n, commit, and create a release.
-3. Reload the app (or re-run its fetch) without rebuilding it: the new text should appear.
+3. Reload the app (or re-run its fetch) without rebuilding it: the new text should appear. If it does not, clear the app's own cache and any CDN or proxy in front of the files.
 4. Block the URL (offline mode or a wrong host): the app should still show bundled text.
 
 ## Common mistakes

@@ -100,7 +100,7 @@ affected key, language, character and a hint. The write still went through; fix 
 | Sign-in requested again / HTTP 401 | The connection was disconnected or expired | Ask the user to sign in again from their AI app |
 | `No access to this project…` | The project was not approved for this connection | User reconnects and selects the project |
 | `Permission denied…` | Missing scope for this project | Name the scope from the table above; user reconnects with more access |
-| `…not available on your plan…` / `plan_limit_reached` | Plan lacks MCP access or releases | Explain the plan limit; nothing to retry |
+| `Your plan does not allow this action. Please upgrade.` | The plan lacks this feature (usually releases, which need Starter or above) | Explain the plan limit; nothing to retry |
 | `This workspace has been suspended` / account suspended | Suspended by support | Tell the user to contact support |
 | `No drafts to commit` | Nothing pending (for that `locale`) | Check `list_keys` for drafts; do not retry |
 | `No commits found. Commit drafts first.` | Release before any commit | Commit first, if the user wants that |
