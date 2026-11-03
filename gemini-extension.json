@@ -1,0 +1,10 @@
+{
+  "name": "litei18n",
+  "version": "1.0.0",
+  "description": "Manage app translations with LiteI18n: find and create keys, draft translations, publish them and ship over-the-air releases.",
+  "mcpServers": {
+    "litei18n": {
+      "httpUrl": "https://mcp.litei18n.com/mcp"
+    }
+  }
+}
