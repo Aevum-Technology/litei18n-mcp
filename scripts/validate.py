@@ -87,6 +87,10 @@ check(plugin.get("name") == "litei18n", ".claude-plugin/plugin.json: name must b
 market = load(".claude-plugin/marketplace.json")
 check(any(p.get("name") == "litei18n" for p in market.get("plugins", [])), "marketplace.json: litei18n plugin missing")
 load("glama.json")
+gemini = load("gemini-extension.json")
+check(gemini.get("name") == "litei18n", "gemini-extension.json: name must be litei18n")
+check(gemini.get("mcpServers", {}).get("litei18n", {}).get("httpUrl") == MCP_URL,
+      "gemini-extension.json: litei18n httpUrl must be the hosted link")
 
 if errors:
     print("\n".join(f"FAIL {e}" for e in errors))

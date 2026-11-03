@@ -70,6 +70,15 @@ codex mcp add litei18n --url https://mcp.litei18n.com/mcp
 codex mcp login litei18n
 ```
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/Aevum-Technology/litei18n-mcp
+```
+
+This adds the MCP server and the [agent skill](#agent-skill) together. Start `gemini`, then run
+`/mcp auth litei18n` and sign in.
+
 ### Cursor
 
 [Install in Cursor](https://cursor.com/en/install-mcp?name=litei18n&config=eyJ1cmwiOiJodHRwczovL21jcC5saXRlaTE4bi5jb20vbWNwIn0%3D),
@@ -202,6 +211,8 @@ MCP server above; it is optional but makes agents more careful and more accurate
 /plugin install litei18n@litei18n
 ```
 
+**Gemini CLI (extension: MCP server and skill together):** see [Gemini CLI](#gemini-cli).
+
 **Any agent that supports skills (Claude Code, Codex, Cursor, OpenCode and others)**
 
 ```bash
@@ -251,6 +262,7 @@ permissions you chose. Your AI app never sees your LiteI18n password.
 ## About this repository
 
 This repository holds the public documentation, the MCP Registry entry
-([`server.json`](server.json)), the Claude Code plugin and the agent skill. The hosted service
+([`server.json`](server.json)), the Claude Code plugin, the Gemini CLI extension
+([`gemini-extension.json`](gemini-extension.json)) and the agent skill. The hosted service
 itself is operated by [Aevum Technology LTD](https://litei18n.com) and is not open source. The
 contents of this repository are released under the [MIT License](LICENSE).

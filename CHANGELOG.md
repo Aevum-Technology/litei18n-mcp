@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-03
+
+- Gemini CLI extension: `gemini-extension.json` adds the hosted MCP server and the `litei18n`
+  skill with `gemini extensions install https://github.com/Aevum-Technology/litei18n-mcp`.
+
 ## 2026-11-02
 
 - First public release of this repository: documentation for the hosted MCP server at
