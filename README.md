@@ -38,12 +38,17 @@ Up-to-date guides with copy buttons and one-click installs: **[litei18n.com/agen
 
 ### Claude (web, desktop and mobile)
 
-1. Open **Customize → Connectors**, click **+ Add** and choose **Add custom connector**.
-2. Name it `litei18n`, paste `https://mcp.litei18n.com/mcp`, click **Continue** twice, then **Add**.
-3. Click **Connect** and sign in to LiteI18n.
+LiteI18n is in the Claude connector directory.
+
+1. Open **[LiteI18n in the Claude directory](https://claude.ai/directory/connectors/litei18n)**, or in
+   Claude open **Customize → Connectors** and search for **LiteI18n**.
+2. Click **Connect** and sign in to LiteI18n.
 
 On Team and Enterprise plans, an Owner adds it first under **Organization settings → Connectors**;
 members then click **Connect**.
+
+Not in the list for you? Add it by hand: **Customize → Connectors**, click **+ Add**, choose
+**Add custom connector**, name it `litei18n` and paste `https://mcp.litei18n.com/mcp`.
 
 ### ChatGPT
 
@@ -60,7 +65,8 @@ If **+** is missing, your workspace admin may need to allow custom MCP servers.
 claude mcp add --transport http litei18n https://mcp.litei18n.com/mcp
 ```
 
-Then type `/mcp`, choose **litei18n** and sign in. To get the agent skill as well, install the
+Then type `/mcp`, choose **litei18n** and sign in. If you already connected LiteI18n in Claude
+and sign in to Claude Code with the same Claude account, it is there already. To get the agent skill as well, install the
 plugin instead (see [Agent skill](#agent-skill)).
 
 ### Codex
