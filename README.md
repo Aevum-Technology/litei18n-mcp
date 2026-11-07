@@ -61,12 +61,14 @@ If **+** is missing, your workspace admin may need to allow custom MCP servers.
 
 ### Claude Code
 
+Already connected LiteI18n in Claude? Sign in to Claude Code with the same Claude account and it
+is there already. Otherwise run:
+
 ```bash
 claude mcp add --transport http litei18n https://mcp.litei18n.com/mcp
 ```
 
-Then type `/mcp`, choose **litei18n** and sign in. If you already connected LiteI18n in Claude
-and sign in to Claude Code with the same Claude account, it is there already. To get the agent skill as well, install the
+Then type `/mcp`, choose **litei18n** and sign in. To get the agent skill as well, install the
 plugin instead (see [Agent skill](#agent-skill)).
 
 ### Codex
